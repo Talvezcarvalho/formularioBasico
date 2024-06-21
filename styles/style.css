@@ -1,0 +1,19 @@
+@import url(formulario.css);
+
+:root {
+    --azul-escuro: #001427;
+    --verde: #708D81;
+    --verde-degrade: linear-gradient(97.54deg, #708D81 35.49%, #B2EDD5 165.37%);
+    --fonte-principal: 'Roboto';
+}   
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+.header__formulario { 
+    padding: 1em;
+    background-color: var(--azul-escuro);
+    height: 370px;
+    max-height: 370px;
+}

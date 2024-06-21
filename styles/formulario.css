@@ -1,0 +1,80 @@
+
+.form__container {
+    display: flex;
+    gap: 8em;
+    position: relative;
+}
+.form__container-titulo{
+    text-align: left;
+    margin-left: 54px;
+    padding: 3%;
+}
+.form-titulo {
+    font-size: 64px;
+    width: 440px;
+    font-weight: bold;
+    color: var(--verde);
+}
+
+.formulario__corpo {
+    display: flex;
+    gap: 2em;
+    background-color: white ;
+    margin-right: 50px;
+    padding: 1em;
+    height: 640px;
+    border-radius: 10px;
+    top: -200px;
+    position: relative;
+    border: solid 4px var(--verde);
+}
+
+.formulario__corpo-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.input__container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.input__container > input {
+    margin: 0.5em;
+    width: 350px;
+    height: 64px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.input__container > input:focus {
+    border: solid black 2px;
+}
+.date-input > input {
+    width: 100px;
+}
+
+.inputs_data {
+    display: flex;
+    gap: 1em;
+}
+.inputs_data > input {
+    margin-top: .5em;
+    width: 104px;
+    height: 64px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.input__container > input[id="cpf"] {
+    height: 38px;
+}
+.input__container > label {
+    font-weight: bold;
+}
